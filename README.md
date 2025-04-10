@@ -2,80 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>90s Toontime - Telugu Cartoons</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>90s ToonTime - Telugu Cartoons</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
       margin: 0;
-      background: #fff9f9;
-      color: #333;
+      font-family: 'Fredoka', sans-serif;
+      background-color: #fce4ec;
+      color: #4a148c;
     }
 
     header {
-      background: #ff4c68;
-      color: white;
       text-align: center;
-      padding: 30px 10px;
-      font-size: 1.5em;
+      padding: 2rem 1rem;
+      background-color: #f8bbd0;
+      border-bottom: 4px solid #ce93d8;
     }
 
-    .container {
-      padding: 20px;
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .cartoon-list {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
     }
 
-    .card {
-      background: white;
+    .cartoon-card {
+      background-color: #fff8e1;
       border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      margin: 20px;
-      width: 320px;
-      padding: 20px;
-      text-align: center;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
     }
 
-    .card h2 {
-      color: #ff4c68;
-      font-size: 1.2em;
+    .cartoon-card:hover {
+      transform: scale(1.02);
     }
 
-    iframe {
-      width: 100%;
-      height: 180px;
-      border-radius: 12px;
+    .cartoon-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 0 0 0.5rem;
     }
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      color: gray;
+    .coming-soon {
+      color: #d32f2f;
+      font-weight: bold;
+    }
+
+    a.watch-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #388e3c;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a.watch-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-
   <header>
-    🎬 90s Toontime - Only Telugu Cartoons!
+    <h1>📺 90s ToonTime - Telugu Cartoons 🎉</h1>
   </header>
 
-  <div class="container">
-    <!-- Example cards below. More will be added in Phase 2 -->
-    <div class="card">
-      <h2>Doraemon</h2>
-      <iframe src="https://www.youtube.com/embed/k_A5b6OZEzw" frameborder="0" allowfullscreen></iframe>
+  <main class="cartoon-list">
+    <div class="cartoon-card">
+      <p class="cartoon-title">🚗 Make Way for Noddy</p>
+      <a class="watch-link" href="https://www.youtube.com/watch?v=ZGo_mS89VR4" target="_blank">Watch Episode 1 – Noddy in Telugu</a>
     </div>
-
-    <div class="card">
-      <h2>Shinchan</h2>
-      <iframe src="https://www.youtube.com/embed/QyoPjCEJjoo" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-
-  <footer>Made with ❤️ by Keerthi</footer>
-
+    <div class="cartoon-card"><p class="cartoon-title">🐙 Oswald</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🐉 Dragon Tales</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">⚡ Pokémon</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🐭 Tom and Jerry Kids</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🛡️ Ben 10</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">💰 Richie Rich</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">👻 Courage the Cowardly Dog</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">😎 Johnny Bravo</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">😼 Kid vs Kat</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🔍 Scooby-Doo</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🎩 Mr. Bean (Animated)</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🔫 Power Rangers</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🚢 Popeye the Sailor</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🐧 Pingu</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🏯 Takeshi's Castle</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🎸 Phineas and Ferb</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">🤖 Doraemon</p><p class="coming-soon">Coming soon...</p></div>
+    <div class="cartoon-card"><p class="cartoon-title">😆 Shinchan</p><p class="coming-soon">Coming soon...</p></div>
+  </main>
 </body>
 </html>
